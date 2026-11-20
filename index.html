@@ -1,0 +1,133 @@
+<!-- FILE NAME: index.html -->
+<!-- Sunrise Hospital Home Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Hospital | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">✚</span>
+            Sunrise Hospital
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="patient.html">Register</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Health, Our Priority</h1>
+
+            <p>
+                Welcome to Sunrise Hospital. We provide caring
+                and reliable healthcare services for you and
+                your family.
+            </p>
+
+            <a href="patient.html"
+               class="btn btn-primary"
+               onclick="showMessage()">
+                Register Now
+            </a>
+
+            <a href="#services" class="btn btn-secondary">
+                Our Services
+            </a>
+
+            <!-- Mouse Over and Mouse Out Demonstration -->
+            <p id="demo"
+               onmouseover="mouseOver()"
+               onmouseout="mouseOut()">
+                Your health, our priority.
+            </p>
+        </div>
+
+        <!-- Hospital Image -->
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=85&v=2"
+                alt="Modern hospital"
+                loading="eager">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <p>
+            Healthcare services to support your well-being.
+        </p>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Emergency Care</h3>
+                <p>
+                    Timely care for urgent medical needs.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>General Medicine</h3>
+                <p>
+                    Medical advice and treatment for
+                    common illnesses.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Child Care</h3>
+                <p>
+                    Healthcare support for children
+                    and families.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Sunrise Hospital</h2>
+
+        <p>
+            Our goal is to provide respectful, patient-focused
+            care in a welcoming environment.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            Sunrise Hospital — Your Health, Our Priority.
+        </p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="patient.html">Register</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Sunrise Hospital. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
